@@ -1,0 +1,399 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    scroll-behavior: smooth;
+}
+
+/* Navbar  */
+
+nav {
+    width: 100%;
+    height: 75px;
+    display: flex;
+    align-items: center;
+    background-color: rgb(245, 245, 245);
+}
+
+.logoNav {
+    display: inline-block;
+    width: 10%;
+    margin-left: 15px;
+}
+
+.logoNav img {
+    width: 35%;
+    cursor: pointer;
+}
+
+.carNav {
+    width: 10%;
+    display: flex;
+    align-items: center;
+}
+
+.carNav span {
+    margin-left: .5rem;
+    cursor: pointer;
+}
+
+#motors:hover {
+    color: blue;
+}
+
+.carNav img {
+    width: 35%;
+    cursor: pointer;
+    border-radius: 50%;
+    background-color: rgb(230, 230, 230);
+}
+
+.propNav {
+    width: 10%;
+    display: flex;
+    align-items: center;
+    margin-left: 1.5rem;
+}
+
+.propNav img {
+    width: 35%;
+    border-radius: 50%;
+    background-color: rgb(230, 230, 230);
+    cursor: pointer;
+}
+
+.propNav span {
+    margin-left: .5rem;
+    cursor: pointer;
+
+}
+
+#property:hover {
+    color: blue;
+}
+
+/* searchSection */
+
+.searchSection {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(245, 245, 245);
+    padding: 8px 0px;
+}
+
+.blackLogo {
+    width: 6.5%;
+}
+
+.blackLogo img {
+    width: 100%;
+}
+
+.cityInp {
+    width: 15%;
+}
+
+#cityOpt {
+    border-radius: 10px;
+    border: 2px solid rgb(11, 36, 11);
+    width: 100%;
+    height: 45px;
+    padding: 5px 12px;
+}
+
+.searchInp {
+    width: 30%;
+    margin-right: 10rem;
+}
+
+.searchInp input {
+    width: 100%;
+    height: 45px;
+    padding: 5px 15px;
+    border: 2px solid rgb(11, 36, 11);
+    border-radius: 10px;
+}
+
+.login a {
+    color: rgb(11, 36, 11);
+    font-weight: bold;
+    font-size: larger;
+    cursor: pointer;
+}
+
+.login a:hover {
+    text-decoration: none;
+}
+
+.sell {
+    width: 7%;
+    height: 7%;
+}
+
+.sell input {
+    background-color: white;
+    color: rgb(20, 70, 20);
+    width: 100%;
+    font-weight: bold;
+    font-size: large;
+    border-top: 5px solid skyblue;
+    border-right: 5px solid darkblue;
+    border-left: 5px solid yellow;
+    border-bottom: 5px solid rgb(8, 41, 8);
+    border-radius: 25%;
+    padding: 5px;
+    cursor: pointer;
+}
+
+/* lastNav */
+
+.lastNav {
+    width: 100%;
+    height: 3rem;
+    background-color: rgb(250, 250, 250);
+    display: flex;
+    align-items: center;
+
+}
+
+.allCateg {
+    margin-left: 1.5%;
+}
+
+.allCateg h5 {
+    cursor: pointer;
+
+}
+
+.allCateg:hover {
+    color: blue;
+}
+
+.itemsCateg {
+    display: flex;
+    padding-top: 10px;
+    width: 60%;
+    cursor: pointer;
+    justify-content: space-around;
+    margin-left: 2%;
+}
+
+.itemsCateg p:hover {
+    color: blue;
+}
+
+.bannerSection {
+    width: 95%;
+    height: 15rem;
+    margin: 1rem auto;
+}
+
+.bannerSection img {
+    width: 100%;
+    height: 100%;
+}
+
+
+/* iconsSection */
+
+.iconsHeading {
+    margin-left: 2%;
+
+}
+
+.icons {
+    width: 95%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+
+}
+
+.icons div {
+    width: 11%;
+    height: 8%;
+    margin-top: 1rem;
+}
+
+.icons div img {
+    width: 70%;
+    margin-left: 8%;
+    cursor: pointer;
+    transition: .8s;
+
+}
+
+.icons div img:hover {
+    box-shadow: 5px 5px 10px black;
+    border-radius: 50%;
+}
+
+.icons div p {
+    margin-top: 10px;
+    font-weight: bolder;
+    width: 80%;
+    cursor: pointer;
+    text-align: center;
+}
+
+/* Cards */
+
+.cardHead {
+    margin: 30px 0px 30px 20px;
+    font-weight: bold;
+
+}
+
+.mobilesCards {
+    /* border: 2px solid red; */
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.mobiles {
+    border: 2px solid rgb(223, 222, 222);
+    width: 23%;
+    height: 24rem;
+    cursor: pointer;
+}
+
+.mobiles img {
+    width: 100%;
+    height: 230px;
+    padding: 2px 2px;
+}
+
+.price {
+    font-weight: bold;
+    margin-left: 5%;
+    margin-top: 10px;
+}
+
+.model {
+    margin-left: 5%;
+}
+
+.location {
+    margin-left: 5%;
+}
+
+.time {
+    margin-left: 5%;
+}
+
+/* carsCards */
+
+.carsCards {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/* bikesCards */
+
+.bikesCards {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/* propertyCards */
+
+.propCards {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+/* furnitureCards */
+
+.furnitureCards {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+/* fashionCards */
+
+.fashionCards {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/* bottomBanner */
+
+.btmBanner {
+    width: 100%;
+    margin-top: 4%;
+
+}
+
+.btmBanner img {
+    width: 100%;
+}
+
+
+/* footer */
+
+
+.footer {
+    width: 100%;
+    height: 230px;
+    /* border: 2px solid rgb(0, 255, 85); */
+    color: #a7b0b2;
+    background-color: #EBEEEF;
+
+}
+
+.footer-box {
+    width: 90%;
+    line-height: 2;
+    padding-top: 40px;
+    display: flex;
+    justify-content: center;
+    /* border: 2px solid red; */
+}
+
+td {
+    padding-left: 80px;
+    font-size: 12px;
+}
+
+.th {
+    font-weight: bold;
+    font-size: 15px;
+    color: black;
+    padding-bottom: 1rem;
+}
+
+td:hover {
+    color: black;
+    cursor: pointer;
+}
+
+.img img {
+    padding-top: 0px;
+    margin-right: 10px;
+
+}
+
+.copy-mainbox {
+    width: 100%;
+    height: 3.5rem;
+    background-color: #0c444b;
+    color: white;
+    margin-top: 2.5rem;
+}
+
+.copy-right {
+    width: 80%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: 12px;
+    margin: 0 auto;
+    padding-top: 15px;
+    cursor: pointer;
+}
